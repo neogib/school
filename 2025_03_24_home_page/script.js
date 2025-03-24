@@ -11,20 +11,24 @@ for (let i = 0; i < 30; i++) {
     particle.style.width = `${size}px`;
     particle.style.height = `${size}px`;
 
-    // Random position
+    // Random horizontal position
     const posX = Math.random() * 100;
     particle.style.left = `${posX}%`;
 
+    // Random vertical position (new)
+    const posY = Math.random() * 100;
+    particle.style.top = `${posY}%`;
+
     // Random delay
-    const delay = Math.random() * 15;
+    const delay = Math.random() * 10;
     particle.style.animationDelay = `${delay}s`;
 
     // Random color
     const colorIndex = Math.floor(Math.random() * colors.length);
     particle.style.backgroundColor = colors[colorIndex];
 
-    // Random duration between 15 and 30s
-    const duration = Math.random() * 15 + 15;
+    // Random duration
+    const duration = Math.random() * 15 + 5;
     particle.style.animationDuration = `${duration}s`;
 
     particlesContainer.appendChild(particle);
