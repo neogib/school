@@ -3,21 +3,22 @@
     margin-top: 20px;
 }
 
-.table-with-style {
+table {
+    margin: 20px;
     border-collapse: collapse;
 }
 
-.table-with-style th,
-.table-with-style td {
+th,
+td {
     border: 1px solid black;
     padding: 8px 12px;
     text-align: center;
 }
 
-.table-with-style th {
+th {
     background-color: #87cefa;
 }
 
-.table-with-style .merged-cell {
+.colored-cell {
     background-color: #32cd32;
 }
