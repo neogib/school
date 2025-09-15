@@ -48,7 +48,7 @@ main {
 .projects-list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -93,15 +93,11 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    background-color: #2d3748;
+    background-color: #191970;
     color: white;
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
-}
-
-.footer-text {
-    opacity: 0.8;
 }
 
 @media (max-width: 768px) {
