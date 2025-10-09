@@ -9,6 +9,9 @@ body {
     line-height: 1.6;
     color: #e2e8f0;
     background-color: #1a202c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -36,6 +39,8 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 3rem 2rem;
+    flex: 1;
+    width: 100%;
 }
 
 .projects-title {
@@ -90,9 +95,7 @@ main {
 }
 
 footer {
-    position: fixed;
     width: 100%;
-    bottom: 0;
     background-color: #191970;
     color: white;
     text-align: center;
