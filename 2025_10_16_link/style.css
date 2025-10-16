@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #fff 0%, #fffacd 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.link-email {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 28px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.link-email:hover {
+    background-color: #0056b3;
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+
+.link-image {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.link-image img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.link-image:hover {
+    transform: scale(1.05);
+}
+
+.link-image:hover img {
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
