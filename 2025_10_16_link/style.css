@@ -43,7 +43,8 @@ h1 {
 }
 
 .text {
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     font-size: 1.2rem;
     max-width: 600px;
 }
