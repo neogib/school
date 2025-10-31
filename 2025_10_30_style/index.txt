@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Stylizowany tekst</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wojciech Szczepański" />
+    <meta name="description" content="Przykład stylizowanego tekstu w HTML" />
+    <meta name="robots" content="all" />
+</head>
+
+<body>
+    <p style="
+        color: green;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 12px;
+        border: 2px solid yellow;
+      ">
+        Ten tekst powinien być napisany zgodnie ze stylem zdefiniowanym dla
+        akapitu, a więc czcionką Verdana, jeżeli nie ma jej w komputerze, to
+        czcionką Arial, jeżeli i tej czcionki nie ma, to inną czcionką
+        bezszeryfową. Kolor czcionki powinien być zielony, rozmiar - 12 pikseli.
+        Akapit powinien posiadać obramowanie narysowane linią ciągłą o grubości 2
+        piksele, koloru żółtego.
+    </p>
+
+    <p style="
+        color: red;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 14px;
+        border: 3px solid orange;
+      ">
+        Ten tekst powinien być napisany zgodnie ze stylem zdefiniowanym dla
+        akapitu, a więc czcionką Verdana, jeżeli nie ma jej w komputerze, to
+        czcionką Arial, jeżeli i tej czcionki nie ma, to inną czcionką
+        bezszeryfową. Kolor czcionki powinien być czerwony, rozmiar - 14 pikseli.
+        Akapit powinien posiadać obramowanie narysowane linią ciągłą o grubości 3
+        piksele, koloru pomarańczowego.
+    </p>
+
+    <p style="
+        color: blue;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 16px;
+        border: 4px solid lightblue;
+      ">
+        Ten tekst powinien być napisany zgodnie ze stylem zdefiniowanym dla
+        akapitu, a więc czcionką Verdana, jeżeli nie ma jej w komputerze, to
+        czcionką Arial, jeżeli i tej czcionki nie ma, to inną czcionką
+        bezszeryfową. Kolor czcionki powinien być niebieski, rozmiar - 16 pikseli.
+        Akapit powinien posiadać obramowanie narysowane linią ciągłą o grubości 4
+        piksele, koloru jasnoniebieskiego.
+    </p>
+</body>
+
+</html>
