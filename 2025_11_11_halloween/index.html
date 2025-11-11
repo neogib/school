@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noc Halloween</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="fog"></div>
+
+    <header>
+        <h1>HALLOWEEN 🎃</h1>
+        <p class="subtitle">Noc pełna tajemnic i magii</p>
+    </header>
+
+    <div class="container">
+        <section class="hero-section">
+            <img src="images/castle.jpg" alt="Zamek w nocy" class="hero-image" />
+            <div class="hero-overlay">
+                <div class="hero-text">
+                    <h2>Noc Duchów</h2>
+                    <p>Gdy zapada zmrok, zaczynają dziać się dziwne rzeczy...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-card">
+            <h3>Cukierek albo psikus? 🍬</h3>
+            <p style="color: #ccc; margin-bottom: 20px">
+                Kliknij i sprawdź, co dostaniesz!
+            </p>
+            <button class="trick-or-treat-btn" onclick="trickOrTreat()">
+                Spróbuj szczęścia!
+            </button>
+            <div id="result" style="margin-top: 20px; font-size: 1.3em; color: #ff6b35"></div>
+        </section>
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="images/tradition.jpg" alt="Rzeźbiona dynia" class="gallery-image" />
+                <div class="gallery-caption">
+                    <h3>Tradycja 🕯️</h3>
+                    <p>Rzeźbione dynie chronią domy przed złymi duchami</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/graveyard.jpg" alt="Cmentarz" class="gallery-image" />
+                <div class="gallery-caption">
+                    <h3>Zapomniane Miejsce 🪦</h3>
+                    <p>Stare cmentarze kryją wiele historii</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/moon.png" alt="Ksieżycowa noc" class="gallery-image" />
+                <div class="gallery-caption">
+                    <h3>Księżycowa Noc 🌕</h3>
+                    <p>Pełnia księżyca rozświetla mroczne zakątki</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Historia Halloween 👻</h2>
+            <p>
+                Halloween ma swoje korzenie w starożytnym celtyckim święcie Samhain,
+                obchodzonym około 2000 lat temu. Celtowie wierzyli, że w noc 31
+                października granica między światem żywych i umarłych staje się
+                cieńsza.
+            </p>
+            <p>
+                Dzisiaj Halloween to połączenie starych tradycji z nowoczesnymi
+                zwyczajami. Rzeźbienie dyń, przebieranie się w kostiumy i zbieranie
+                słodyczy to najbardziej popularne elementy tej wyjątkowej nocy.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>🎃 Halloween 2025 🎃</p>
+        <p>Miłej i strasznej zabawy!</p>
+    </footer>
+
+    <div class="floating-pumpkin">🎃</div>
+</body>
+
+</html>
