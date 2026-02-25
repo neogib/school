@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprawdź siłę hasła</title>
+    <link rel="stylesheet" href="haslo.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Sprawdź siłę hasła</h1>
+      <p class="lead">
+        Wpisz przykładowe hasło i zobacz ocenę zgodną z zasadami bezpieczeństwa.
+      </p>
+
+      <form id="password-form" class="card">
+        <label for="password-input">Hasło do sprawdzenia</label>
+        <input
+          id="password-input"
+          name="password"
+          type="password"
+          autocomplete="off"
+          placeholder="Wpisz hasło..."
+          required
+        />
+        <button type="submit">Sprawdź hasło</button>
+      </form>
+
+      <section id="result" class="card result hidden" aria-live="polite">
+        <h2>Wynik</h2>
+        <p class="score-line">
+          Siła hasła: <strong id="score-label">-</strong>
+          <span id="score-value">(0/100)</span>
+        </p>
+        <div class="meter" aria-hidden="true">
+          <div id="meter-fill" class="meter-fill"></div>
+        </div>
+
+        <div class="columns">
+          <div>
+            <h3>Już jest dobrze</h3>
+            <ul id="good-list"></ul>
+          </div>
+          <div>
+            <h3>Do poprawy</h3>
+            <ul id="improve-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <p class="links">
+        <a href="zasady.html">Zobacz zasady tworzenia haseł</a> ·
+        <a href="index.html">Wróć na stronę główną</a>
+      </p>
+    </main>
+
+    <script src="haslo.js"></script>
+  </body>
+</html>
